@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">MerlionMe</string>
+    <string name="title_activity_maps">GPS Readings</string>
+    <string name="get_location">Get current GPS Location</string>
+    <string name="get_mean">Plot locations</string>
+    <string name="clear_history">Clear Recorded History</string>
+    <string name="coordinates">Latest GPS Reading:</string>
+    <string name="number_reads">Number of Locations:</string>
+    <string name="activity1">GPS Location</string>
+    <string name="activity2">Accelerometer Displacement</string>
+    <string name="activity3">Kalman Filtering Estimate</string>
+    <string name="accStart">Start Accelerometer</string>
+    <string name="accStop">Stop and Show Graph</string>
+    <string name="textX">X Acc: </string>
+    <string name="textY">Y Acc: </string>
+    <string name="textZ">Z Acc: </string>
+    <string name="accMain">Return to Main</string>
+    <string name="Return">Return</string>
+</resources>

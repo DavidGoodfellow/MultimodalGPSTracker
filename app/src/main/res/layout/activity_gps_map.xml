@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_gps_map"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="sg.edu.nus.gps.GPSMapActivity">
+
+    <TextView
+        android:id="@+id/mean_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingRight="10dp" android:textAppearance="?android:attr/textAppearanceLarge" android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/variance_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingRight="10dp" android:textAppearance="?android:attr/textAppearanceLarge" android:textSize="25sp" />
+
+    <Button
+        android:text="@string/Return"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/button4"
+        android:onClick="goToMainActivity"/>
+
+    <com.androidplot.xy.XYPlot
+        android:id="@+id/gps_graphXY"
+        style="@style/APDefacto.Dark"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>

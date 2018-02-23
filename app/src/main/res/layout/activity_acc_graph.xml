@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_acceleration_graph"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="sg.edu.nus.gps.AccGraphActivity">
+
+    <TextView
+        android:id="@+id/acc_mean_text1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingRight="10dp" android:textAppearance="?android:attr/textAppearanceLarge" android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/acc_variance_text1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingRight="10dp" android:textAppearance="?android:attr/textAppearanceLarge" android:textSize="25sp" />
+
+    <Button
+        android:text="@string/Return"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/buttonAccMain3"
+        android:onClick="goToMainActivity"/>
+
+    <com.androidplot.xy.XYPlot
+        android:id="@+id/acc_graphXY"
+        style="@style/APDefacto.Dark"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>

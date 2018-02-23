@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "943680790744",
+    "firebase_url": "https://shaped-buttress-160011.firebaseio.com",
+    "project_id": "shaped-buttress-160011",
+    "storage_bucket": "shaped-buttress-160011.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:943680790744:android:985be9828f668714",
+        "android_client_info": {
+          "package_name": "sg.edu.nus.gps"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "943680790744-a3fnp0cmn4vpr2pjnk1phrq24a2r95l6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAwEY0DgH0UgAmShovc94VRXR5w3mDrgs0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
